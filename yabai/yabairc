@@ -54,6 +54,6 @@ yabai -m rule --add app="^Music$" manage=off
 yabai -m rule --add app="^Übersicht$" opacity 1.0
 yabai -m rule --add app="^Spotify$" space=1 frame=0:0:800:600 sticky=on
 
-yabai -m config external_bar all:38:0
+yabai -m config external_bar all:42:0
 
 borders order=above active_color=0xffb4befe inactive_color=0xff45475a width=4.0 &

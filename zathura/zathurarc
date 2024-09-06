@@ -13,6 +13,7 @@ set render-loading "false"
 set window-width 1280
 set window-height 1080
 set adjust-open "best-fit"
+set window-title-basename true 
 
 map <Space> toggle_index
 map K zoom in
