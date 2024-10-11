@@ -23,9 +23,9 @@ alt - r : yabai -m space --rotate 90
 alt - f : yabai -m window --toggle zoom-fullscreen
 
 # alt - s : yabai -m window --toggle
-alt - s : yabai -m window --toggle sticky;\
-          yabai -m window --toggle topmost;\
-          yabai -m window --toggle pip
+# alt - s : yabai -m window --toggle sticky;\
+#          yabai -m window --toggle topmost;\
+#          yabai -m window --toggle pip
 
 # toggle padding and gap
 alt - g : yabai -m space --toggle padding; yabai -m space --toggle gap
@@ -68,4 +68,10 @@ shift + alt - p : yabai -m window --display previous; yabai -m display --focus p
 # Open an application
 
 # Iterm 
-alt - i : open -a /Applications/iTerm.app/Contents/MacOS/iTerm2
+# alt - i : open -a /Applications/iTerm.app/Contents/MacOS/iTerm2
+
+# Kitty Terminal
+alt - i : open -a /Applications/kitty.app/Contents/MacOS/kitty
+
+# Spotify 
+alt - s : open -a /Applications/Spotify.app/Contents/MacOS/Spotify

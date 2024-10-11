@@ -1,11 +1,11 @@
 # Synctex
 
+set selection-clipboard clipboard
 set synctex true
-set synctex-editor-command "nvim --remote-silent +%{line} %{input}"
+set synctex-editor-command "nvim --headless -c \"VimtexInverseSearch %{line} '%{input}'\""
 
 # Basic Settings
 
-set highlight-transparency .1
 set zoom-center "true"
 set selection-clipboard clipboard
 set render-loading "false"
@@ -14,14 +14,15 @@ set window-width 1280
 set window-height 1080
 set adjust-open "best-fit"
 set window-title-basename true 
+set database sqlite
 
 map <Space> toggle_index
 map K zoom in
 map J zoom out
 map p print
 map w recolor
-map k 5k
-map j 5k
+map k scroll up 
+map j scroll down
 map <C-v> toggle_fullscreen
 
 set guioptions                  ""        # statusbar
