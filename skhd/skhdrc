@@ -73,5 +73,8 @@ shift + alt - p : yabai -m window --display previous; yabai -m display --focus p
 # Kitty Terminal
 alt - i : open -a /Applications/kitty.app/Contents/MacOS/kitty
 
+# Orion 
+alt - o : open -a /Applications/Orion.app/Contents/MacOS/Orion
+
 # Spotify 
 alt - s : open -a /Applications/Spotify.app/Contents/MacOS/Spotify

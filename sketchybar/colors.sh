@@ -1,43 +1,42 @@
 #!/bin/bash
 
-# Catppuccin Mocha palette
+# Catppuccin Macchiato palette
+export BASE=0xff24273a
+export MANTLE=0xff1e2030
+export CRUST=0xff181926
 
-export BASE=0xff1e1e2e
-export MANTLE=0xff181825
-export CRUST=0xff11111b
+export TEXT=0xffcad3f5
+export SUBTEXT0=0xffa5adcb
+export SUBTEXT1=0xffb8c0e0
 
-export TEXT=0xffcdd6f4
-export SUBTEXT0=0xffa6adc8
-export SUBTEXT1=0xffbac2de
+export SURFACE0=0xff363a4f
+export SURFACE1=0xff494d64
+export SURFACE2=0xff5b6078
 
-export SURFACE0=0xff313244
-export SURFACE1=0xff45475a
-export SURFACE2=0xff585b70
-
-export OVERLAY0=0xff6c7086
-export OVERLAY1=0xff7f849c
-export OVERLAY2=0xff9399b2
+export OVERLAY0=0xff6e738d
+export OVERLAY1=0xff8087a2
+export OVERLAY2=0xff939ab7
 
 # Color Palette
-export BLUE=0xff89b4fa
-export LAVENDER=0xffb4befe
-export SAPPHIRE=0xff74c7ec
-export SKY=0xff89dceb
-export TEAL=0xff94e2d5
-export YELLOW=0xfff9e2af
-export PEACH=0xfffab387
-export MAROON=0xffeba0ac
-export RED=0xfff38ba8
-export MAUVE=0xffcba6f7
-export PINK=0xfff5c2e7
-export FLAMINGO=0xfff2cdcd
-export ROSEWATER=0xfff5e0dc
-export BLACK=0xff181825
-export WHITE=0xffcdd6f4
-export GREEN=0xffa6e3a1
-export ORANGE=0xfffab387
-export MAGENTA=0xffcba6f7
-export GREY=0xff6c7086
+export BLUE=0xff8aadf4
+export LAVENDER=0xffb7bdf8
+export SAPPHIRE=0xff7dc4e4
+export SKY=0xff91d7e3
+export TEAL=0xff8bd5ca
+export YELLOW=0xffeed49f
+export PEACH=0xfff5a97f
+export MAROON=0xffee99a0
+export RED=0xffed8796
+export MAUVE=0xffc6a0f6
+export PINK=0xfff5bde6
+export FLAMINGO=0xfff0c6c6
+export ROSEWATER=0xfff4dbd6
+export BLACK=0xff1e2030
+export WHITE=0xffcad3f5
+export GREEN=0xffa6da95
+export ORANGE=0xfff5a97f
+export MAGENTA=0xffc6a0f6
+export GREY=0xff6e738d
 export TRANSPARENT=0x00000000
 
 export RANDOM_CAT_COLOR=("$BLUE" "$LAVENDER" "$SAPPHIRE" "$SKY" "$TEAL" "$GREEN" "$YELLOW" "$PEACH" "$MAROON" "$RED" "$MAUVE" "$PINK" "$FLAMINGO" "$ROSEWATER")
@@ -47,13 +46,13 @@ function getRandomCatColor() {
 }
 
 # General bar colors
-export BAR_COLOR=0xa01e1e2e
-export ICON_COLOR=$WHITE  # Color of all icons
-export LABEL_COLOR=$WHITE # Color of all labels
-export BACKGROUND_1=0x90313244
-export BACKGROUND_2=0x9045475a
+export BAR_COLOR=0xa024273a
+export ICON_COLOR=$WHITE
+export LABEL_COLOR=$WHITE
+export BACKGROUND_1=0x90363a4f
+export BACKGROUND_2=0x90494d64
 
-export POPUP_BACKGROUND_COLOR=0xff1e1e2e
+export POPUP_BACKGROUND_COLOR=0xff24273a
 export POPUP_BORDER_COLOR=$WHITE
 
 export SHADOW_COLOR=$BLACK
