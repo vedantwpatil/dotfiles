@@ -8,8 +8,8 @@ cursor_blink_interval 0
 # Window settings
 initial_window_width 640
 initial_window_height 400
-hide_window_decorations yes
 remember_window_size yes
+draw_minimal_borders yes
 
 # Color scheme (you can customize this)
 include current-theme.conf
@@ -55,8 +55,6 @@ map cmd+9 goto_tab 9
 scrollback_lines 10000
 
 # Performance tweaks
-repaint_delay 10
-input_delay 3
 sync_to_monitor yes
 
 # Disable audio bell
@@ -73,15 +71,16 @@ shell_integration enabled
 # Disable shell integration cursor changes
 shell_integration no-cursor
 
+# Rounded corners
+hide_window_decorations titlebar-only
 
 # BEGIN_KITTY_FONTS
-font_family      family="Courier New"
-bold_font        auto
-italic_font      auto
+font_family family="MesloLGS NF"
+bold_font auto
+italic_font auto
 bold_italic_font auto
 # END_KITTY_FONTS
-#
-#
-#
-shell_integration no-title
-sync_to_monitor yes
+
+disable_ligatures always
+text_composition_strategy 1.0 30
+gpu_rendering_strategy auto
