@@ -35,8 +35,11 @@ yabai -m config window_shadow off
 # Enable window transparency
 yabai -m config window_opacity on
 yabai -m config active_window_opacity 0.95
-yabai -m config normal_window_opacity 0.85
+yabai -m config normal_window_opacity 0.90
 
+# Zero animation durations for instant visual feedback
+yabai -m config window_animation_duration 0.0
+yabai -m config window_opacity_duration 0.0
 # Enable window animations
 yabai -m config window_animation_duration 0.3
 

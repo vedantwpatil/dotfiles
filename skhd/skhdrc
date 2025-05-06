@@ -80,4 +80,7 @@ alt - i : open -a /Applications/Ghostty.app/Contents/MacOS/ghostty
 alt - s : open -a /Applications/Spotify.app/Contents/MacOS/Spotify
 
 # Orion 
-alt - o: open -a /Applications/Orion.app/Contents/MacOS/Orion
+# alt - o: open -a /Applications/Orion.app/Contents/MacOS/Orion
+
+# Brave 
+alt - b: open -A /Applications/Brave Browser.app/Contents/MacOS/Brave Browser
