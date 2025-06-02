@@ -10,3 +10,5 @@ window-decoration = true
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
+
+keybind = global:cmd+grave_accent=toggle_quick_terminal
