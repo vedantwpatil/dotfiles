@@ -1,5 +1,5 @@
 # This ensures the keybindings are for the main file manager view
-[mgr]
+[manager]
 # Prepend_keymap gives your custom bindings higher priority
 prepend_keymap = [
   # Keymap for Computer Science Projects
