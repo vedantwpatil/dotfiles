@@ -61,4 +61,6 @@ yabai -m config external_bar all:42:0
 # borders order=above active_color=0xffb4befe inactive_color=0xff45475a width=4.0 &
 
 # Kanagawa bones theme 
-borders active_color=0xffbbbbbb inactive_color=0xff3e3e3e width=4.0 &
+borders active_color=c5c9c5 
+inactive_color=949fb5 
+width=3.0 &
